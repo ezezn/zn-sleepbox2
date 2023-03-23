@@ -1,0 +1,111 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(53436aca8627a49f4deaaa44dc9e3c05.woff2) format('woff2');
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(0ba49c096a77b67734434cebcaf2e14d.woff2) format('woff2');
+}
+    /* fallback */
+@font-face {
+    font-family: 'Material Icons Round';
+    font-style: normal;
+    font-weight: 400;
+    src: url(121a59d703f74d7fc4a1bf64580966ed.woff2) format('woff2');
+}
+    /* fallback */
+@font-face {
+    font-family: 'Material Icons Sharp';
+    font-style: normal;
+    font-weight: 400;
+    src: url(4f203ef2d5bc0198ed17648f0642ff96.woff2) format('woff2');
+}
+    /* fallback */
+@font-face {
+    font-family: 'Material Icons Two Tone';
+    font-style: normal;
+    font-weight: 400;
+    src: url(e2c22f8cedcd54788de212b3bbea8e55.woff2) format('woff2');
+}
+body {
+        --google-font-color-materialiconstwotone:none;
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(b92a5a1a6e756eb073f57797ed451bd7.eot); /* IE9 Compat Modes */
+    src: local(''),
+         url(b92a5a1a6e756eb073f57797ed451bd7.eot?#iefix) format('embedded-opentype'), 
+         url(15d9f621c3bd1599f0169dcf0bd5e63e.woff2) format('woff2'), 
+         url(d3907d0ccd03b1134c24d3bcaf05b698.woff) format('woff'), 
+         url(a0d084a3e8176664e75f8eca3ebea96c.ttf) format('truetype'), 
+         url(8681f434273fd6a267b1a16a035c5f79.svg#Roboto) format('svg'); /* Legacy iOS */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size);
+    overscroll-behavior-y: contain;
+}
+
+.bg-red { background-color: red; }
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.bg-peachpuff { background-color: peachpuff; }
+
+.mt-xs { margin-top: 0.1rem; }
+.mt-xs { margin-top: 0.3rem; }
+.mt-sm { margin-top: 0.4rem; }
+.mt-md { margin-top: 0.6rem; }
+.mt-lg { margin-top: 1rem; }
+.mt-xl { margin-top: 1.5rem; }
+
+.pa-xs { padding: 0.1rem; }
+.pa-sm { padding: 0.3rem; }
+.pa-md { padding: 0.4rem; }
+.pa-lg { padding: 0.6rem; }
+.pa-xl { padding: 1.5rem; }
+
+.cols {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.rows {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+
+.align-start { align-items: flex-start; }
+.align-center { align-items: center; }
+.align-end { align-items: flex-end; }
+
+.col-1 { flex: 1 1 calc(33.33333% - 1rem); }
+.col-2 { flex: 1 1 calc(66.66667% - 1rem); }
+.col-3 { flex: 1 1 calc(100% - 1rem); }
+
+#logo {
+    width: 40vw;
+}
+
+#num {
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=app.bf83dc84cc44f6f5e2ac.css.map*/
